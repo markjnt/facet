@@ -1,0 +1,19 @@
+{
+  "showUnsupportedFiles": false,
+  "mobileQuickRibbonItem": "",
+  "alwaysUpdateLinks": true,
+  "newFileLocation": "folder",
+  "newFileFolderPath": "Notes",
+  "propertiesInDocument": "visible",
+  "mobilePullAction": "editor:save-file",
+  "showInlineTitle": true,
+  "readableLineLength": false,
+  "attachmentFolderPath": "Attachments",
+  "tabSize": 4,
+  "pdfExportSettings": {
+    "pageSize": "Letter",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  }
+}

@@ -1,0 +1,19 @@
+filters:
+  and:
+    - '!file.inFolder("Templates")'
+    - note.area == "Wissen"
+views:
+  - type: table
+    name: Alle
+    order:
+      - file.name
+      - type
+      - project
+      - subproject
+      - tags
+      - status
+    sort:
+      - property: type
+        direction: ASC
+      - property: file.name
+        direction: ASC

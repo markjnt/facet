@@ -1,0 +1,9 @@
+# Obsidian
+.obsidian/workspace.json
+.obsidian/workspaces.json
+.trash/
+
+# Betriebssystem
+.DS_Store
+Thumbs.db
+*:Zone.Identifier

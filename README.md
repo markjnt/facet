@@ -32,7 +32,7 @@ Dazu kommen zwei Dateien im Root, die festhalten, wie hier gearbeitet wird und f
 > [!NOTE]
 > Der Name kommt von der *faceted classification*: Einordnung über mehrere unabhängige Merkmale statt über einen Baum.
 
-## 🗂️ Aufbau
+## 📁 Aufbau
 
 | Ort | Inhalt |
 |---|---|

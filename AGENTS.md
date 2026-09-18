@@ -1,6 +1,6 @@
 ---
 icon: LiSettings
-modified: 2026-09-19 00:42
+modified: 2026-09-19 01:24
 ---
 ## Einstieg für Agenten
 Diese Datei ist verbindlich. Bei Widerspruch zu anderen Notizen gilt sie.
@@ -94,6 +94,15 @@ Unabhängig vom Aufbau gilt:
 - `Periodic/` ist Chronik und Beleg: Was an einem Tag passiert ist, bleibt stehen und wird **nicht rückwirkend geändert**.
 - `Notes/` besitzt den aktuellen Stand.
 - Eine Erkenntnis aus einer Daily Note wird in die zuständige Notiz **übertragen**, nicht dort liegengelassen. Die Daily Note bleibt als Beleg unverändert.
+
+## Verlinkung
+In einem flachen Vault sind Links die Navigation – Properties sortieren, Links verbinden.
+
+- **Keine verwaisten Notizen.** Jede neue Notiz wird mindestens einmal angebunden: von der zuständigen Projekt- oder Themenübersicht aus, oder von der nächstliegenden Notiz. Ohne eingehenden Link ist sie nur über die Suche auffindbar.
+- **Innerhalb eines Projekts** entsteht dadurch eine Baumstruktur: eine Übersicht verweist auf die Teilnotizen, diese zurück auf die Übersicht.
+- **Querverbindungen sind ausdrücklich erwünscht** – zwischen allem, was inhaltlich zusammenhängt, unabhängig von Projekt, Bereich oder Typ. Sie sind der Grund, warum es keine Ordner braucht. Eine Notiz darf in beliebig vielen Zusammenhängen verlinkt sein.
+- **Verlinkt wird im Fließtext** an der Stelle, an der das Thema vorkommt, nicht als Linksammlung am Ende.
+- **Suchen:** erst über die Links und Backlinks der zuständigen Notiz, dann über die Suche des MCP-Servers. Der Graph ist meist schneller und liefert den Zusammenhang gleich mit.
 
 ## Bases
 - **Standardfall:** kein neues `.base` anlegen, sondern der passenden Area-Base (`Arbeit`, `Bildung`, `Persönlich`, `Wissen`) eine **neue View** hinzufügen.

@@ -77,10 +77,12 @@ Unabhängig vom Aufbau gilt:
 - Historie gehört nach `Periodic/`, nicht in die Notiz.
 
 **Daily Notes** – ergänzend zur Vorlage:
+- `## Journal` für persönliche Gedanken, `## Projekte` für Vorhaben aus [[USER#Projekte]], `## Themen` für Sachgebiete ohne Projekt, `## ToDos` für Aufgaben
 - Unter `## Projekte` je Projekt eine eigene Überschrift: `### <Projektname> #<projekt-tag>`
 - Der Überschriftentext ist exakt der `project`-Wert aus [[USER#Projekte]]
 - Der Tag ist derselbe Name in Tag-Schreibweise: klein, Leerzeichen als `-`, Umlaute ausgeschrieben – aus `Hausbau Süd` wird `#hausbau-sued`
 - Der Tag ist die einzige Verbindung zu den Projekt-Bases (`file.hasTag(...)`). Fehlt er, taucht die Notiz dort nicht auf.
+- Betrifft ein Eintrag eine bestimmte Notiz, wird sie verlinkt – in jedem Abschnitt. Die Rückverweise dieser Notiz ergeben dann ihren Verlauf.
 
 ## Wahrheit & Ownership
 

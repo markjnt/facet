@@ -46,11 +46,17 @@ Dazu kommen zwei Dateien im Root, die festhalten, wie hier gearbeitet wird und f
 
 ## 🚀 Einrichtung
 
-Repo klonen und den Ordner in Obsidian als Vault öffnen.
-
-```bash
-git clone https://github.com/markjnt/facet.git
-```
+1. Repo klonen:
+   ```bash
+   git clone https://github.com/markjnt/facet.git
+   ```
+2. Den Ordner in Obsidian als Vault öffnen, dem Ersteller vertrauen und die Community-Plugins aktivieren.
+3. Obsidian schließen und das mitgelieferte Layout wiederherstellen – beim ersten Start sind die Plugins noch aus, dabei überschreibt Obsidian es:
+   ```bash
+   cd facet
+   git checkout -- .obsidian/workspace.json
+   ```
+4. Obsidian wieder öffnen.
 
 ## 🤖 Mit einem KI-Agenten arbeiten
 

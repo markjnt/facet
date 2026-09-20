@@ -124,8 +124,8 @@ Der Skill wird **vor** dem ersten Schreibvorgang geladen, nicht nachträglich.
 **Skill nicht verfügbar?** Nicht improvisieren. Stattdessen melden, welcher der hier aufgelisteten Skills fehlt, und fragen, ob trotzdem ohne ihn weitergearbeitet werden soll.
 
 ## Bearbeiten
-- Bestehende Notizen per **gezielter Teilersetzung** ändern, nicht als Ganzes überschreiben. Vollständig neu schreiben nur bei echtem Umbau der ganzen Notiz. (Beim MCP-Server heißt das meist `patch_note` statt `write_note` im Overwrite-Modus.)
-- Geht es nur ums Frontmatter, nur das ändern, statt die Datei neu zu schreiben (meist `update_frontmatter`)
+- Bestehende Notizen per **gezielter Teilersetzung** ändern, nicht als Ganzes überschreiben. Vollständig neu schreiben nur bei echtem Umbau der ganzen Notiz. (Je nach MCP-Server heißt das Tool dafür z. B. `edit_note` oder `patch_note` – Name variiert, Funktion ist dieselbe: gezielte Teiländerung statt Overwrite.)
+- Geht es nur ums Frontmatter, nur das ändern, statt die Datei neu zu schreiben (z. B. `set_property`/`remove_property` oder `update_frontmatter`, je nach Server)
 - Keine Templater-Syntax (`<% %>`, `{{VALUE}}`) in fertige Notizen
 - Links als `[[Notiz]]`, keine Markdown-Links auf Vault-Notizen
 - Keine Notiz löschen oder umbenennen ohne ausdrücklichen Auftrag

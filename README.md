@@ -62,7 +62,7 @@ Für alles, was meinen Obsidian-Vault betrifft, verwendest du den Obsidian-MCP-S
 
 > [!IMPORTANT]
 > **Voraussetzungen**
-> - Zugriff auf den Vault über einen Obsidian-MCP-Server, etwa [MCPVault](https://mcpvault.org/)
+> - Zugriff auf den Vault über einen Obsidian-MCP-Server, etwa [MCPVault](https://mcpvault.org/) oder [NoteMesh](https://github.com/ChangeNode/notemesh) als Remote MCP
 > - Die Skills `obsidian-markdown` und `obsidian-bases` aus [kepano/obsidian-skills](https://github.com/kepano/obsidian-skills)
 
 ## 🔧 Pflege

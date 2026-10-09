@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
-      "LiCompass",
-      "LiCalendar1",
-      "LiCalendarRange",
+      "LiSmartphone",
       "LiUserRound",
-      "LiSettings"
+      "LiSettings",
+      "LiCalendarDays",
+      "LiCalculator"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -57,5 +57,608 @@
   "Templates/Notiz.md": {
     "iconName": "LiStickyNote"
   },
-  "Periodic": "LiCalendar"
+  "Periodic": "LiCalendar",
+  "Notes/Guacamole.md": {
+    "iconName": "LiChefHat"
+  },
+  "Notes/Reiswrap.md": {
+    "iconName": "LiChefHat"
+  },
+  "Notes/Schoko-Banane.md": {
+    "iconName": "LiChefHat"
+  },
+  "Notes/Tomate Mozzarella.md": {
+    "iconName": "LiChefHat"
+  },
+  "Notes/Baked Oats.md": {
+    "iconName": "LiChefHat"
+  },
+  "Notes/Apple Crumble.md": {
+    "iconName": "LiChefHat"
+  },
+  "Notes/Couscous Salat.md": {
+    "iconName": "LiChefHat"
+  },
+  "Notes/Feta Wassermelone Salat.md": {
+    "iconName": "LiChefHat"
+  },
+  "Notes/Frühstückswrap.md": {
+    "iconName": "LiChefHat"
+  },
+  "Notes/Hähnchen Gurkensalat.md": {
+    "iconName": "LiChefHat"
+  },
+  "Notes/Erdbeer Joghurt Riegel.md": {
+    "iconName": "LiChefHat"
+  },
+  "Notes/Jans Gyoza Salat.md": {
+    "iconName": "LiChefHat"
+  },
+  "Notes/Masse Shake.md": {
+    "iconName": "LiChefHat"
+  },
+  "Notes/Protein Pancakes.md": {
+    "iconName": "LiChefHat"
+  },
+  "Notes/Inscopes Hähnchen Reis Bowl.md": {
+    "iconName": "LiChefHat"
+  },
+  "Notes/ETF-Strategie.md": {
+    "iconName": "LiTrendingUp"
+  },
+  "Notes/Versicherungen.md": {
+    "iconName": "LiShieldCheck"
+  },
+  "Notes/Bankverbindung.md": {
+    "iconName": "LiLandmark"
+  },
+  "Notes/Budget-Planung.md": {
+    "iconName": "LiWallet"
+  },
+  "Notes/Vermögenswirksame Leistungen.md": {
+    "iconName": "LiPiggyBank"
+  },
+  "Notes/Frühstücksideen.md": {
+    "iconName": "LiList"
+  },
+  "Notes/Abendessenideen.md": {
+    "iconName": "LiList"
+  },
+  "Notes/Skincare.md": {
+    "iconName": "LiSparkles"
+  },
+  "Notes/Zitate.md": {
+    "iconName": "LiQuote"
+  },
+  "Notes/Tortilla im Airfryer.md": {
+    "iconName": "LiChefHat"
+  },
+  "Notes/Contentideen.md": {
+    "iconName": "LiLightbulb"
+  },
+  "Notes/Mittagessenideen.md": {
+    "iconName": "LiList"
+  },
+  "Notes/Supplements.md": {
+    "iconName": "LiPill"
+  },
+  "Notes/Ernährungsplan.md": {
+    "iconName": "LiClock"
+  },
+  "Notes/Snackideen.md": {
+    "iconName": "LiCookie"
+  },
+  "Notes/Krafttraining.md": {
+    "iconName": "LiDumbbell"
+  },
+  "Notes/Cardio & Ausdauer.md": {
+    "iconName": "LiHeartPulse"
+  },
+  "Notes/Mobility.md": {
+    "iconName": "LiActivity"
+  },
+  "Notes/Regeneration.md": {
+    "iconName": "LiBedDouble"
+  },
+  "Notes/Wunschzettel.md": {
+    "iconName": "LiGift"
+  },
+  "Notes/Date Ideen.md": {
+    "iconName": "LiHeart"
+  },
+  "Notes/Bucketlist.md": {
+    "iconName": "LiMapPinned"
+  },
+  "Notes/Einkaufsliste.md": {
+    "iconName": "LiShoppingCart"
+  },
+  "Notes/Journaling – Methoden & Fragen.md": {
+    "iconName": "LiBookMarked"
+  },
+  "Notes/Diffusion Models.md": {
+    "iconName": "LiBookMarked"
+  },
+  "Notes/AI Agent Harness & LLM Ops.md": {
+    "iconName": "LiWorkflow"
+  },
+  "Notes/Flowchart Alignment.md": {
+    "iconName": "LiWorkflow"
+  },
+  "Notes/CAI TTS UnrealEngine.md": {
+    "iconName": "LiWorkflow"
+  },
+  "Notes/DiffSHEG Streaming.md": {
+    "iconName": "LiWorkflow"
+  },
+  "Notes/Dev Environment Setup.md": {
+    "iconName": "LiWrench"
+  },
+  "Notes/MacBook Setup Checkliste.md": {
+    "iconName": "LiSquareCheck"
+  },
+  "Notes/HDI Spickzettel.md": {
+    "iconName": "LiBriefcase"
+  },
+  "Notes/Gesprächsvorbereitung HDI.md": {
+    "iconName": "LiBriefcase"
+  },
+  "Notes/Vorlage Success Log.md": {
+    "iconName": "LiClipboardList"
+  },
+  "Notes/Checkliste Karriereentwicklung.md": {
+    "iconName": "LiSquareCheck"
+  },
+  "Notes/Vorlage Meetingdokumentation.md": {
+    "iconName": "LiStickyNote"
+  },
+  "Notes/Projektübersicht SAPV Oberberg.md": {
+    "iconName": "LiLayoutDashboard"
+  },
+  "Notes/PalliRoute.md": {
+    "iconName": "LiLayoutDashboard"
+  },
+  "Notes/PalliRoute – Changelog.md": {
+    "iconName": "LiClipboardList"
+  },
+  "Notes/Signage System.md": {
+    "iconName": "LiWrench"
+  },
+  "Notes/KI Chatapp.md": {
+    "iconName": "LiClipboardList"
+  },
+  "Notes/KI Chatapp – Plattform-Recherche.md": {
+    "iconName": "LiBookMarked"
+  },
+  "Notes/Zeit & Projektplan.md": {
+    "iconName": "LiCalendarRange"
+  },
+  "Notes/Projektübersicht Masterarbeit.md": {
+    "iconName": "LiLayoutDashboard"
+  },
+  "Notes/Sprint 1 Auswahl & Benchmark.md": {
+    "iconName": "LiRocket"
+  },
+  "Notes/Sprint 2 Vorstudie Umfrage.md": {
+    "iconName": "LiRocket"
+  },
+  "Notes/Sprint 3 Implementierung & Studie an MetaHuman.md": {
+    "iconName": "LiRocket"
+  },
+  "Notes/Theoretischer Hintergrund.md": {
+    "iconName": "LiLibrary"
+  },
+  "Notes/Funktionale Dimensionen der Gesten Generierung.md": {
+    "iconName": "LiLibrary"
+  },
+  "Notes/SMPL.md": {
+    "iconName": "LiBookMarked"
+  },
+  "Notes/Dataset BEAT.md": {
+    "iconName": "LiBookMarked"
+  },
+  "Notes/GENEA Initiave.md": {
+    "iconName": "LiBookMarked"
+  },
+  "Notes/Literaturübersicht Masterarbeit.md": {
+    "iconName": "LiBookMarked"
+  },
+  "Notes/Literaturrecherche Modelle.md": {
+    "iconName": "LiFlaskConical"
+  },
+  "Notes/Forschungsfragen & Hypothesen.md": {
+    "iconName": "LiFlaskConical"
+  },
+  "Notes/Forschungsfragen – Frühere Überlegungen.md": {
+    "iconName": "LiArchive"
+  },
+  "Notes/Latenzmessung Checkliste.md": {
+    "iconName": "LiSquareCheck"
+  },
+  "Notes/Benchmark Analyse.md": {
+    "iconName": "LiFlaskConical"
+  },
+  "Notes/Latenzmessung Thesis.md": {
+    "iconName": "LiFlaskConical"
+  },
+  "Notes/Latenzmessung.md": {
+    "iconName": "LiFlaskConical"
+  },
+  "Notes/Model Evaluation.md": {
+    "iconName": "LiFlaskConical"
+  },
+  "Notes/Model Requirements.md": {
+    "iconName": "LiFlaskConical"
+  },
+  "Notes/DiffuseStyleGesture+.md": {
+    "iconName": "LiBrain"
+  },
+  "Notes/DiffSHEG.md": {
+    "iconName": "LiBrain"
+  },
+  "Notes/Quantitative Metriken.md": {
+    "iconName": "LiFlaskConical"
+  },
+  "Notes/GestureLSM.md": {
+    "iconName": "LiBrain"
+  },
+  "Notes/HoloGest.md": {
+    "iconName": "LiBrain"
+  },
+  "Notes/RAG-Gesture.md": {
+    "iconName": "LiBrain"
+  },
+  "Notes/MambaTalk.md": {
+    "iconName": "LiBrain"
+  },
+  "Notes/SemGes.md": {
+    "iconName": "LiBrain"
+  },
+  "Notes/SemTalk.md": {
+    "iconName": "LiBrain"
+  },
+  "Notes/Semantic Gesticulator.md": {
+    "iconName": "LiBrain"
+  },
+  "Notes/TRiMM.md": {
+    "iconName": "LiBrain"
+  },
+  "Notes/Hauptstudie Planung & Design.md": {
+    "iconName": "LiFlaskConical"
+  },
+  "Notes/MetaHuman Integration.md": {
+    "iconName": "LiWrench"
+  },
+  "Notes/Methodik Begründungen & Forschungslücke.md": {
+    "iconName": "LiFlaskConical"
+  },
+  "Notes/Methodik Modellauswahl.md": {
+    "iconName": "LiFlaskConical"
+  },
+  "Notes/Schreibtracker.md": {
+    "iconName": "LiClipboardList"
+  },
+  "Notes/Runtime Retargeting Guide.md": {
+    "iconName": "LiWrench"
+  },
+  "Notes/System Pipeline Diagramm.md": {
+    "iconName": "LiWorkflow"
+  },
+  "Notes/Vorstudie Limitationen.md": {
+    "iconName": "LiFlaskConical"
+  },
+  "Notes/Textgliederung.md": {
+    "iconName": "LiFileText"
+  },
+  "Notes/Vorstudie Materialen & Fragebogen.md": {
+    "iconName": "LiFlaskConical"
+  },
+  "Notes/Vorstudie Planung & Design.md": {
+    "iconName": "LiFlaskConical"
+  },
+  "Notes/Hauptstudie Auswertung.md": {
+    "iconName": "LiChartBar"
+  },
+  "Notes/Hauptstudie Ergebnisse.md": {
+    "iconName": "LiChartBar"
+  },
+  "Notes/Latenzmessung Auswertung.md": {
+    "iconName": "LiChartBar"
+  },
+  "Notes/Latenzmessung Tabellen.md": {
+    "iconName": "LiChartBar"
+  },
+  "Notes/Vorstudie Auswertung.md": {
+    "iconName": "LiFlaskConical"
+  },
+  "Notes/Vorstudie Ergebnisse.md": {
+    "iconName": "LiChartBar"
+  },
+  "Notes/Notgroschen.md": {
+    "iconName": "LiPiggyBank"
+  },
+  "Notes/Steueroptimierung.md": {
+    "iconName": "LiReceipt"
+  },
+  "Notes/Vermögensaufbau.md": {
+    "iconName": "LiTrendingUp"
+  },
+  "Notes/Data-Driven Co-Speech Gesture Generation.md": {
+    "iconName": "LiBookOpen"
+  },
+  "Notes/Towards a GENEA Leaderboard.md": {
+    "iconName": "LiBookOpen"
+  },
+  "Notes/Towards Reliable Human Evaluations in Gesture Generation.md": {
+    "iconName": "LiBookOpen"
+  },
+  "Periodic/Y2026.md": {
+    "iconName": "LiCalendarHeart"
+  },
+  "Periodic/D03-11-2025.md": {
+    "iconName": "LiCalendarDays"
+  },
+  "Periodic/D05-03-2026.md": {
+    "iconName": "LiCalendarDays"
+  },
+  "Periodic/D06-05-2026.md": {
+    "iconName": "LiCalendarDays"
+  },
+  "Periodic/D08-12-2025.md": {
+    "iconName": "LiCalendarDays"
+  },
+  "Periodic/D10-06-2026.md": {
+    "iconName": "LiCalendarDays"
+  },
+  "Periodic/D11-06-2026.md": {
+    "iconName": "LiCalendarDays"
+  },
+  "Periodic/D12-07-2026.md": {
+    "iconName": "LiCalendarDays"
+  },
+  "Periodic/D13-06-2026.md": {
+    "iconName": "LiCalendarDays"
+  },
+  "Periodic/D15-05-2026.md": {
+    "iconName": "LiCalendarDays"
+  },
+  "Periodic/D16-06-2026.md": {
+    "iconName": "LiCalendarDays"
+  },
+  "Periodic/D15-06-2026.md": {
+    "iconName": "LiCalendarDays"
+  },
+  "Periodic/D18-06-2026.md": {
+    "iconName": "LiCalendarDays"
+  },
+  "Periodic/D19-05-2026.md": {
+    "iconName": "LiCalendarDays"
+  },
+  "Periodic/D22-05-2026.md": {
+    "iconName": "LiCalendarDays"
+  },
+  "Periodic/D24-06-2026.md": {
+    "iconName": "LiCalendarDays"
+  },
+  "Periodic/D26-06-2026.md": {
+    "iconName": "LiCalendarDays"
+  },
+  "Periodic/D27-06-2026.md": {
+    "iconName": "LiCalendarDays"
+  },
+  "Periodic/D28-03-2026.md": {
+    "iconName": "LiCalendarDays"
+  },
+  "Periodic/D29-05-2026.md": {
+    "iconName": "LiCalendarDays"
+  },
+  "Periodic/D30-04-2026.md": {
+    "iconName": "LiCalendarDays"
+  },
+  "Bases/Arbeit.base": "LiCompass",
+  "Bases/Bildung.base": "LiCompass",
+  "Bases/Persönlich.base": "LiCompass",
+  "Bases/Wissen.base": "LiCompass",
+  "Bases/Masterarbeit.base": "LiRocket",
+  "Bases/Rezepte.base": "LiChefHat",
+  "Notes/Literaturrecherche Hauptstudie.md": {
+    "iconName": "LiFlaskConical"
+  },
+  "Notes/Karriereentscheidung – Fach vs. Führung.md": {
+    "iconName": "LiCompass"
+  },
+  "Notes/Softwareentwicklung – Ansätze & Methoden.md": {
+    "iconName": "LiStickyNote"
+  },
+  "Notes/Data Engineering Glossar.md": {
+    "iconName": "LiBookOpen"
+  },
+  "Notes/Taxonomie, Ontologie & Knowledge Graph.md": {
+    "iconName": "LiNetwork"
+  },
+  "Notes/Zotero Sammlungen – Kapitel-Mapping.md": {
+    "iconName": "LiFolderTree"
+  },
+  "Notes/Literaturrecherche Theorie.md": {
+    "iconName": "LiFlaskConical"
+  },
+  "Notes/LLM Ops Tools – Vergleich.md": {
+    "iconName": "LiGauge"
+  },
+  "Notes/Harness Frameworks – Vergleich.md": {
+    "iconName": "LiBoxes"
+  },
+  "Periodic/D13-07-2026.md": {
+    "iconName": "LiCalendarDays"
+  },
+  "Periodic/D15-07-2026.md": {
+    "iconName": "LiCalendarDays"
+  },
+  "Notes/Auto Ausstattung.md": {
+    "iconName": "LiCar"
+  },
+  "Notes/Auto Wartung & Kontrolle.md": {
+    "iconName": "LiWrench"
+  },
+  "Notes/Quat-Kalibrierung DiffSHEG-Unreal.md": {
+    "iconName": "LiWrench"
+  },
+  "Notes/Hauptstudie Limitationen.md": {
+    "iconName": "LiFlaskConical"
+  },
+  "Periodic/D16-07-2026.md": {
+    "iconName": "LiCalendarDays"
+  },
+  "Notes/Holding-Struktur für Gründung.md": {
+    "iconName": "LiLandmark"
+  },
+  "Notes/RQ3 Dimensionen & Skalenauswahl – Begründung.md": {
+    "iconName": "LiListChecks"
+  },
+  "Notes/Diskussion – Denkansätze & offene Bausteine.md": {
+    "iconName": "LiLightbulb"
+  },
+  "Periodic/D20-07-2026.md": {
+    "iconName": "LiCalendarDays"
+  },
+  "Periodic/D21-07-2026.md": {
+    "iconName": "LiCalendarDays"
+  },
+  "Notes/Roadmap Selbstständigkeit & Unternehmensgründung.md": {
+    "iconName": "LiRocket"
+  },
+  "Notes/Innovationsprozess – Basisdokument.md": {
+    "iconName": "LiWorkflow"
+  },
+  "Periodic/Y2027.md": {
+    "iconName": "LiCalendarHeart"
+  },
+  "Periodic/D26-07-2026.md": {
+    "iconName": "LiCalendarDays"
+  },
+  "Notes/Latenzmessung Live-Pipeline.md": {
+    "iconName": "LiFlaskConical"
+  },
+  "Notes/DiffSHEG Live-Server.md": {
+    "iconName": "LiServer"
+  },
+  "Notes/TTS-Streaming Anbindung.md": {
+    "iconName": "LiRadioTower"
+  },
+  "Notes/ASAQ – Instrument & Begründung.md": {
+    "iconName": "LiClipboardList"
+  },
+  "Notes/Terminologie – Agentenbegriffe.md": {
+    "iconName": "LiBookA"
+  },
+  "Periodic/D05-08-2026.md": {
+    "iconName": "LiCalendarDays"
+  },
+  "Periodic/D06-08-2026.md": {
+    "iconName": "LiCalendarDays"
+  },
+  "Notes/System Pipeline Ablauf.md": {
+    "iconName": "LiListOrdered"
+  },
+  "Notes/Cross-Referenzen Kapitel.md": {
+    "iconName": "LiLink"
+  },
+  "Periodic/D10-08-2026.md": {
+    "iconName": "LiCalendarDays"
+  },
+  "Notes/Spiegelgesetze.md": {
+    "iconName": "LiStickyNote"
+  },
+  "Periodic/D17-08-2026.md": {
+    "iconName": "LiCalendarDays"
+  },
+  "Notes/LLM Serving Setup – SGLang & Qwen3.md": {
+    "iconName": "LiServer"
+  },
+  "Notes/Interner Pilot – SD-Neuschätzung.md": {
+    "iconName": "LiFlaskConical"
+  },
+  "Notes/MetaHuman Debugging-Log.md": {
+    "iconName": "LiBug"
+  },
+  "Notes/Body-Face-Synchronisation & Frame-Interpolation.md": {
+    "iconName": "LiRefreshCw"
+  },
+  "Notes/Interaktionsszenario & Ablauf.md": {
+    "iconName": "LiMessageCircle"
+  },
+  "Notes/System Prompt & Trigger-Nachrichten.md": {
+    "iconName": "LiMessageSquare"
+  },
+  "Notes/Studien-Session-Architektur (UE5).md": {
+    "iconName": "LiSettings"
+  },
+  "Notes/Hauptstudie Poweranalyse.md": {
+    "iconName": "LiFlaskConical"
+  },
+  "Notes/Hauptstudie Fragebogen.md": {
+    "iconName": "LiFlaskConical"
+  },
+  "Notes/Zusätzliche Validierungs- und Erhebungsmethoden – Ausblick.md": {
+    "iconName": "LiFlaskConical"
+  },
+  "Notes/Hauptstudie Hypothesen & Konstruktzuordnung ASAQ.md": {
+    "iconName": "LiListChecks"
+  },
+  "Periodic/D21-08-2026.md": {
+    "iconName": "LiCalendarDays"
+  },
+  "Periodic/D26-08-2026.md": {
+    "iconName": "LiCalendarDays"
+  },
+  "Periodic/D27-08-2026.md": {
+    "iconName": "LiCalendarDays"
+  },
+  "Periodic/D28-08-2026.md": {
+    "iconName": "LiCalendarDays"
+  },
+  "Notes/Anforderungsanalyse – Methodische Fundierung (VDI 2221).md": {
+    "iconName": "LiListChecks"
+  },
+  "Periodic/D03-09-2026.md": {
+    "iconName": "LiCalendarDays"
+  },
+  "Notes/Hauptstudie Durchführungsbeobachtungen.md": {
+    "iconName": "LiClipboardList"
+  },
+  "Notes/Funktionales Training.md": {
+    "iconName": "LiPersonStanding"
+  },
+  "Notes/Kolloquium – Vorbereitung & Sammlung.md": {
+    "iconName": "LiGraduationCap"
+  },
+  "Periodic/D11-09-2026.md": {
+    "iconName": "LiCalendarDays"
+  },
+  "Notes/Makemore – PyTorch Deep Dive (Karpathy Zero to Hero).md": {
+    "iconName": "LiBookMarked"
+  },
+  "Notes/Inferenzstatistik – Logik des Hypothesentests (t-Test).md": {
+    "iconName": "LiCalculator"
+  },
+  "Periodic/D13-09-2026.md": {
+    "iconName": "LiCalendarDays"
+  },
+  "Periodic/D15-09-2026.md": {
+    "iconName": "LiCalendarDays"
+  },
+  "AGENTS.md": {
+    "iconName": "LiSettings"
+  },
+  "USER.md": {
+    "iconName": "LiUserRound"
+  },
+  "Periodic/D19-09-2026.md": {
+    "iconName": "LiCalendarDays"
+  },
+  "Notes/App-Ideen.md": {
+    "iconName": "LiSmartphone"
+  },
+  "Periodic/D08-10-2026.md": {
+    "iconName": "LiCalendarDays"
+  }
 }

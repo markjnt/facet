@@ -40,9 +40,13 @@ Dazu kommen zwei Dateien im Root, die festhalten, wie hier gearbeitet wird und f
 | 📅 `Periodic/` | Daily, Weekly, Monthly, Yearly |
 | 🔍 `Bases/` | Ansichten auf die Notizen, je Area und für große Projekte |
 | 📐 `Templates/` | Vorlagen für neue Notizen |
+| 🧩 `Diagrams/` | alle Diagramme (z. B. Excalidraw, draw.io, Canvas), flach und ohne Frontmatter-Schema |
 | 📎 `Attachments/` | Bilder, PDFs und andere Dateien |
 | 🤖 [`AGENTS.md`](AGENTS.md) | die Regeln: Struktur, Frontmatter, Tags, Aufbau, Prüfung |
 | 👤 [`USER.md`](USER.md) | Kontext über die Person, für die gearbeitet wird |
+
+> [!TIP]
+> Diagramme werden aus einer Notiz heraus eingebunden (`![[Name]]`). Die Notiz trägt `type`, `area`, `project` und Tags, über sie sind Diagramme in Bases und Suche auffindbar.
 
 ## 🚀 Einrichtung
 

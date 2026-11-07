@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
-      "LiSmartphone",
-      "LiUserRound",
-      "LiSettings",
-      "LiCalendarDays",
-      "LiCalculator"
+      "LiWorkflow",
+      "LiStickyNote",
+      "LiBookOpen",
+      "LiCarFront",
+      "LiSmartphone"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -177,18 +177,6 @@
   },
   "Notes/Diffusion Models.md": {
     "iconName": "LiBookMarked"
-  },
-  "Notes/AI Agent Harness & LLM Ops.md": {
-    "iconName": "LiWorkflow"
-  },
-  "Notes/Flowchart Alignment.md": {
-    "iconName": "LiWorkflow"
-  },
-  "Notes/CAI TTS UnrealEngine.md": {
-    "iconName": "LiWorkflow"
-  },
-  "Notes/DiffSHEG Streaming.md": {
-    "iconName": "LiWorkflow"
   },
   "Notes/Dev Environment Setup.md": {
     "iconName": "LiWrench"
@@ -660,5 +648,15 @@
   },
   "Periodic/D08-10-2026.md": {
     "iconName": "LiCalendarDays"
-  }
+  },
+  "Notes/Cupra Leon ST Leistungen.md": {
+    "iconName": "LiCarFront"
+  },
+  "Notes/Psychokybernetik.md": {
+    "iconName": "LiBookOpen"
+  },
+  "Notes/Weiterbildung & Zertifizierungen.md": {
+    "iconName": "LiStickyNote"
+  },
+  "Diagrams": "LiWorkflow"
 }

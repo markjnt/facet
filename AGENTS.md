@@ -1,6 +1,6 @@
 ---
 icon: LiSettings
-modified: 2026-09-19 01:24
+modified: 2026-11-07 13:14
 ---
 ## Einstieg für Agenten
 Diese Datei ist verbindlich. Bei Widerspruch zu anderen Notizen gilt sie.
@@ -21,24 +21,27 @@ Verweise in dieser Datei sind Obsidian-Wikilinks: `[[USER]]` meint die Datei `US
 - `Templates/`: nur Vorlagen, **nie bearbeiten ohne Auftrag**
 - `Bases/`: `.base`-Dateien
 - `Attachments/`: Bilder, PDFs usw.
+- `Diagrams/`: alle Diagramme, unabhängig vom Tool (z. B. Excalidraw, draw.io, Canvas); flach, keine Unterordner. Nicht in `Notes/` oder `Attachments/` ablegen. Eingebunden wird per `![[Name]]`.
 - Unklar, wohin? → `Notes/` mit `status: offen` und nachfragen
-- Ausnahme: `README.md`, `AGENTS.md` und `USER.md` liegen im Vault-Root, damit sie für den gesamten Vault gelten
+- Ausnahme: `AGENTS.md` und `USER.md` liegen im Vault-Root, damit sie für den gesamten Vault gelten
 
 ## Frontmatter
-| Feld         | Pflicht                  | Format / Werte                                                          |
-| ------------ | ------------------------ | ----------------------------------------------------------------------- |
-| `type`       | ja                       | nur aus der Liste unten                                                 |
-| `area`       | ja                       | Bildung, Arbeit, Persönlich, Wissen                                     |
-| `project`    | nein                     | nur Werte aus [[USER#Projekte]]                                         |
-| `subproject` | nein                     | nur Werte aus [[USER#Subprojekte]]                                      |
+| Feld         | Pflicht           | Format / Werte                                                          |
+| ------------ | ----------------- | ----------------------------------------------------------------------- |
+| `type`       | ja                | nur aus der Liste unten                                                 |
+| `area`       | ja                | Bildung, Arbeit, Persönlich, Wissen                                     |
+| `project`    | nein              | nur Werte aus [[USER#Projekte]]                                         |
+| `subproject` | nein              | nur Werte aus [[USER#Subprojekte]]                                      |
 | `status`     | nur wenn sinnvoll | offen, in Arbeit, abgeschlossen                                         |
-| `tags`       | ja                       | Liste, darf leer sein                                                   |
-| `aliases`    | ja                       | Liste, darf leer sein                                                   |
-| `icon`       | ja                       | Lucide-Name mit `Li`-Präfix, z. B. `LiStickyNote`                       |
-| `created`    | ja                       | `YYYY-MM-DD`, beim Anlegen setzen                                       |
-| `modified`   | ja                       | beim Anlegen leer lassen, nie selbst setzen – wird automatisch gepflegt |
+| `tags`       | ja                | Liste, darf leer sein                                                   |
+| `aliases`    | ja                | Liste, darf leer sein                                                   |
+| `icon`       | ja                | Lucide-Name mit `Li`-Präfix, z. B. `LiStickyNote`                       |
+| `created`    | ja                | `YYYY-MM-DD`, beim Anlegen setzen                                       |
+| `modified`   | ja                | beim Anlegen leer lassen, nie selbst setzen – wird automatisch gepflegt |
 
-Die Root-Dateien `README.md`, `AGENTS.md` und `USER.md` sind vom Schema ausgenommen – sie sind Systemdateien, keine Notizen, und tauchen in keiner Base auf. Ihr Frontmatter wird nicht ergänzt.
+Die Root-Dateien `AGENTS.md` und `USER.md` sind vom Schema ausgenommen – sie sind Systemdateien, keine Notizen, und tauchen in keiner Base auf. Ihr Frontmatter wird nicht ergänzt.
+
+Ebenfalls vom Schema ausgenommen ist alles in `Diagrams/`. Diese Dateien sind teils ohne Frontmatter (`.canvas`, `.drawio`) oder bringen ein eigenes Plugin-Format mit (`.excalidraw.md`); ihr Frontmatter wird nicht ergänzt oder angepasst. Bei Excalidraw-Dateien bleibt ausschließlich `excalidraw-plugin: parsed` stehen, ohne dieses Feld erkennt das Plugin die Datei nicht. Eingebunden werden sie aus einer Notiz heraus (`![[Name]]`), die dem Schema folgt.
 
 Weicht `Templates/` von dieser Datei ab, gilt diese Datei. Die Vorlage wird dann angepasst, nicht umgekehrt.
 
